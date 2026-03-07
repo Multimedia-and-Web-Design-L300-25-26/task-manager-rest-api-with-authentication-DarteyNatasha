@@ -1,3 +1,5 @@
 export default {
-  testEnvironment: "node"
+  testEnvironment: "node",
+  setupFilesAfterEnv: ["./tests/setup.js"],
+  testTimeout: 30000
 };
